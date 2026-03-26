@@ -173,7 +173,7 @@ def train(train_loader, model, optimizer, epoch, opt, model_name):
 if __name__ == '__main__':
     # Initial defaults
     # dataset_name = 'ClinicDB' #'CVC-ColonDB' #'Kvasir' #ETIS-LaribPolypDB' #BCAI-IGH\
-    dataset_name = 'Kvasir'
+    dataset_name = 'BKAI'
     
     parser = argparse.ArgumentParser()
     # network related parameters
